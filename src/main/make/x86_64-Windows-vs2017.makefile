@@ -50,12 +50,6 @@ NAME = which
 all : $(EXECUTABLE)
 
 $(EXECUTABLE) : $(SOURCES) $(HEADERS)
-	@echo EXECUTABLE = $(EXECUTABLE)
-	@echo SOURCES = $(SOURCES)
-	@echo HEADERS = $(HEADERS)
-	@echo BUILD_TYPE = $(BUILD_TYPE)
-	@echo pwd = ${CURDIR}
-	which link.exe
 	echo kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib  >  $(NAME).link
 	echo shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib       >> $(NAME).link
 	echo $(CRTLIB)                                                                 >> $(NAME).link
