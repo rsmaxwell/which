@@ -22,7 +22,7 @@ The executable will be built as:  ".\target\dist\which.exe"
 
 ## usage
 
-
+```
 Usage: WHICH [-b] [-x <ext>] [-v] [-j] <filename.ext>
 Where -b    Basic mode.  Only show the file path
               Recognised extensions:
@@ -35,4 +35,4 @@ Where -b    Basic mode.  Only show the file path
       -x <ext>  Force the extension to <ext>
       -j        Search for file on JAVA_LIB_PATH and attempt to load it
       -v        verbose
-
+```
