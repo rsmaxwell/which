@@ -3,7 +3,7 @@
 
 ## Setup
 
-Install Visual Studio 2017 installed and add the tools to the environment 
+Install Visual Studio 2017 and add the tools to the environment 
 
 ``` batch
 set MSVS=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community
